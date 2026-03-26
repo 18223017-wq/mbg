@@ -3,15 +3,8 @@
   "devCommand": "next dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "headers": [
-    {
-      "source": "/api/:path*",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "no-cache, no-store, must-revalidate"
-        }
-      ]
-    }
+  "outputDirectory": ".next",
+  "env": [
+    "NEXT_PUBLIC_API_URL"
   ]
 }
