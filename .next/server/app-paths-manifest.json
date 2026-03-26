@@ -1,0 +1,8 @@
+{
+  "/audit-evidence/page": "app/audit-evidence/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/compliance/page": "app/compliance/page.js",
+  "/risk-scoring/page": "app/risk-scoring/page.js",
+  "/corrective-action/page": "app/corrective-action/page.js",
+  "/anomaly/page": "app/anomaly/page.js"
+}

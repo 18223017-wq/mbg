@@ -4,6 +4,40 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ===== Color Palette Variables ===== */
+:root {
+  /* Primary Brand */
+  --color-primary: #071e49;
+  --color-primary-dark: #13151a;
+  --color-primary-light: #eaf0fa;
+
+  /* Neutrals */
+  --color-neutral-50: #f8fafc;
+  --color-neutral-100: #f1f5f9;
+  --color-neutral-150: #f3f4f6;
+  --color-neutral-200: #e2e8f0;
+  --color-neutral-300: #e5e7eb;
+  --color-neutral-400: #d1d5db;
+  --color-neutral-500: #9ca3af;
+  --color-neutral-600: #6b7280;
+  --color-neutral-700: #4b5563;
+  --color-neutral-800: #374151;
+  --color-neutral-900: #1f2937;
+  --color-neutral-950: #111827;
+  --color-neutral-black: #18181b;
+
+  /* Accents (Gold/Brown) */
+  --color-accent-50: #f6efe2;
+  --color-accent-100: #ece4d1;
+  --color-accent-200: #e5d5b4;
+  --color-accent-base: #d1b06c;
+
+  /* Status */
+  --color-risk-high: #ef4444;
+  --color-risk-medium: #f59e0b;
+  --color-risk-low: #22c55e;
+}
+
 * {
   box-sizing: border-box;
 }
