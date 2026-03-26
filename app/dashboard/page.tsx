@@ -1,7 +1,7 @@
 "use client";
 import { Users, AlertTriangle, FileX, Wrench, ExternalLink } from "lucide-react";
-import StatCard from "@/components/StatCard";
-import RiskBadge from "@/components/RiskBadge";
+import StatCard from "@/components/statcard";
+import RiskBadge from "@/components/riskbadge";
 import { provinsiRiskData, recentAlerts } from "@/lib/mockData";
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,

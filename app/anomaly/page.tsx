@@ -3,7 +3,7 @@ import { useState } from "react";
 import { biayaAnomalyData, biayaAnomalyTable, volumeScatterData, leadTimeData, nutrisiData, nutrisiBarData } from "@/lib/mockData";
 import {
   LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer,
-  ReferenceLine, ScatterChart, Scatter, BarChart, Bar, GroupedBarChart,
+  ReferenceLine, ScatterChart, Scatter, BarChart, Bar,
 } from "recharts";
 
 const TABS = ["Anomali Biaya", "Anomali Volume Distribusi", "Lead Time Distribusi", "Penyimpangan Kandungan Gizi"];
