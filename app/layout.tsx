@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Sidebar from "@/components/Sidebar";
-import Header from "@/components/Header";
+import Sidebar from "@/components/sidebar";
+import Header from "@/components/header";
 
 export const metadata: Metadata = {
   title: "SISPENGAWAS MBG — Badan Gizi Nasional",

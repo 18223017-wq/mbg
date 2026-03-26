@@ -1,8 +1,11 @@
 {
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/anomaly/page": "app/anomaly/page.js",
   "/audit-evidence/page": "app/audit-evidence/page.js",
-  "/dashboard/page": "app/dashboard/page.js",
   "/compliance/page": "app/compliance/page.js",
-  "/risk-scoring/page": "app/risk-scoring/page.js",
   "/corrective-action/page": "app/corrective-action/page.js",
-  "/anomaly/page": "app/anomaly/page.js"
+  "/dashboard/page": "app/dashboard/page.js",
+  "/page": "app/page.js",
+  "/risk-scoring/page": "app/risk-scoring/page.js"
 }

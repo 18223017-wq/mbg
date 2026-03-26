@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Search, ExternalLink, Info } from "lucide-react";
-import RiskBadge from "@/components/RiskBadge";
+import RiskBadge from "@/components/riskbadge";
 import { sppgList } from "@/lib/mockData";
 
 const FORMULA = [
