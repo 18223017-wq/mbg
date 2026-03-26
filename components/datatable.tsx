@@ -10,7 +10,7 @@ interface DataTableProps<T> {
   data: T[];
   className?: string;
 }
-
+// fix
 export default function DataTable<T extends Record<string, unknown>>({ columns, data, className = "" }: DataTableProps<T>) {
   return (
     <div className={`overflow-x-auto ${className}`}>
